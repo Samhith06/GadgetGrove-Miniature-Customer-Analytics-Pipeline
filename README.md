@@ -46,22 +46,22 @@ This script will output the merged dataframe into the console and create the `di
 
 ```mermaid
 flowchart TD
-    A[User/Analyst] -->|Run scripts| B[Local Python ETL]
-    subgraph "Source Systems"
-      C1[SQLite (shop.db): Customers, Products, Orders]
-      C2[MongoDB (GreenField.reviews): reviews]
+    A(User/Analyst) -->|Run scripts| B(Local Python ETL)
+    subgraph SourceSystems
+      C1(SQLite source)
+      C2(MongoDB reviews)
     end
     B -->|Read via sqlite3| C1
     B -->|Read via pymongo| C2
-    B --> D[Transform in pandas]
-    D --> E[Load star schema into SQLite]
-    E --> F1[dim_product_report]
-    E --> F2[fact_sales_reviews]
-    D --> G[Generate charts with matplotlib]
-    G --> H[visualizations/category_ratings_chart.png]
-    G --> I[visualizations/top_customers_clv_chart.png]
-    B --> J[data/reviews_export.json]
-    E --> K[data/shop.db]
+    B --> D(Transform in pandas)
+    D --> E(Load star schema into SQLite)
+    E --> F1(dim_product_report)
+    E --> F2(fact_sales_reviews)
+    D --> G(Generate charts)
+    G --> H(category_ratings_chart.png)
+    G --> I(top_customers_clv_chart.png)
+    B --> J(reviews_export.json)
+    E --> K(shop.db)
 ```
 
 ### 5. Artifacts and Project Structure
