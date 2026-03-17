@@ -1,0 +1,121 @@
+[
+    {
+        "review_id": "r1",
+        "product_id": "1",
+        "customer_id": "1",
+        "rating": 5,
+        "review_text": "Great laptop!"
+    },
+    {
+        "review_id": "r2",
+        "product_id": "3",
+        "customer_id": "1",
+        "rating": 4,
+        "review_text": "Good headphones, comfortable."
+    },
+    {
+        "review_id": "r3",
+        "product_id": "2",
+        "customer_id": "2",
+        "rating": 5,
+        "review_text": "Amazing smartphone."
+    },
+    {
+        "review_id": "r4",
+        "product_id": "5",
+        "customer_id": "2",
+        "rating": 2,
+        "review_text": "Coffee maker broke after a week."
+    },
+    {
+        "review_id": "r5",
+        "product_id": "4",
+        "customer_id": "3",
+        "rating": 4,
+        "review_text": "Very comfortable chair."
+    },
+    {
+        "review_id": "r6",
+        "product_id": "1",
+        "customer_id": "3",
+        "rating": 5,
+        "review_text": "Smooth performance."
+    },
+    {
+        "review_id": "r7",
+        "product_id": "2",
+        "customer_id": "4",
+        "rating": 3,
+        "review_text": "Okay phone, battery could be better."
+    },
+    {
+        "review_id": "r8",
+        "product_id": "5",
+        "customer_id": "5",
+        "rating": 5,
+        "review_text": "Makes great coffee."
+    },
+    {
+        "review_id": "r9",
+        "product_id": "1",
+        "customer_id": "5",
+        "rating": 5,
+        "review_text": "Love it."
+    },
+    {
+        "review_id": "r10",
+        "product_id": "2",
+        "customer_id": "6",
+        "rating": 4,
+        "review_text": "Nice features."
+    },
+    {
+        "review_id": "r11",
+        "product_id": "4",
+        "customer_id": "6",
+        "rating": 1,
+        "review_text": "Wheels broke off."
+    },
+    {
+        "review_id": "r12",
+        "product_id": "3",
+        "customer_id": "7",
+        "rating": 3,
+        "review_text": "Average sound quality."
+    },
+    {
+        "review_id": "r13",
+        "product_id": "5",
+        "customer_id": "7",
+        "rating": 4,
+        "review_text": "Good value."
+    },
+    {
+        "review_id": "r14",
+        "product_id": "1",
+        "customer_id": "8",
+        "rating": 5,
+        "review_text": "Best laptop I've ever owned."
+    },
+    {
+        "review_id": "r15",
+        "product_id": "4",
+        "customer_id": "9",
+        "rating": 5,
+        "review_text": "Perfect for my home office."
+    },
+    {
+        "review_id": "r16",
+        "product_id": "3",
+        "customer_id": "9",
+        "rating": 2,
+        "review_text": "Too tight on my ears."
+    },
+    {
+        "review_id": "r17",
+        "product_id": "5",
+        "customer_id": "10",
+        "rating": 4,
+        "review_text": "Works as expected."
+    }
+]
